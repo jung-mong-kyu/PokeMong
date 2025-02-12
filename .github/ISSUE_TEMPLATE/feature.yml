@@ -9,17 +9,17 @@ body:
       placeholder: 자세히 적을수록 좋습니다!
     validations:
       required: true
-  - type: textarea
+  - type: checkboxes
     attributes:
       label: ✅ 작업할 내용
       description: 할 일을 체크박스 형태로 작성해주세요.
-      placeholder: 최대한 세분화 해서 적어주세요!
-      value: |
-        - [ ] TODO
-        - [ ] TODO
-        - [ ] TODO
-    validations:
-      required: true
+      options:
+        - label: "첫 번째 작업"
+          required: false
+        - label: "두 번째 작업"
+          required: false
+        - label: "세 번째 작업"
+          required: false
   - type: textarea
     attributes:
       label: 🙋🏻 참고 자료
