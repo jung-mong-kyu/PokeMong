@@ -43,7 +43,7 @@ public class Application {
                     }
                     break;
                 default:
-                    System.out.println("1번호가 잘못됐몽, 다시 골라라몽");
+                    System.out.println("번호가 잘못됐몽, 다시 골라라몽");
             }
 
         }

@@ -2,7 +2,7 @@ package com.gyupang.pokemon.aggregate;
 
 public enum PokeType {
     노말,
-    볼꽃,
+    불꽃,
     물,
     풀,
     전기,
