@@ -33,6 +33,7 @@ public class Application {
                     while (true) {
                         int quitNum = sc.nextInt();
                         if (quitNum == 1) {
+                            sc.close();
                             return;
                         } else if (quitNum == 2) {
                             break;

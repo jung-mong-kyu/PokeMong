@@ -20,7 +20,7 @@ public class TrainerRun {
                 System.out.print("트레이너 비밀번호를 입력해달라몽 : ");
                 String pwd = sc.nextLine();
                 if (pwd.length() < 6 || pwd.length() > 10) {
-                    System.out.println("비밀번호는 6자나 10자 사이다몽");
+                    System.out.println("비밀번호는 6자에서 10자 사이다몽");
                     continue;
                 } else {
                     sc.close();
@@ -39,6 +39,8 @@ public class TrainerRun {
             System.out.println("비밀번호를 입력해달라몽");
             String pwd = sc.nextLine();
             // todo : 그 다음 로직 처리해야함(백엔드)
+            break;
         }
+        sc.close();
     }
 }
