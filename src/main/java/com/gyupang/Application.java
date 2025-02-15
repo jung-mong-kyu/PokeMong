@@ -23,7 +23,7 @@ public class Application {
                     TrainerRun.signUp();
                     break;
                 case 2:
-                    TrainerRun.signIn();
+//                    TrainerRun.signIn();
                     break;
                 case 3: break;
                 case 4: break;
